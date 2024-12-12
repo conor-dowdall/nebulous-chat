@@ -1,6 +1,7 @@
 # Nebulous Chat Application
 
 The Nebulous Chat Application is a multi-user, thread-based client-server chat system implemented in Java. It leverages sockets for communication and supports real-time message exchange. The system aims to provide a flexible and robust framework for messaging with considerations for extensibility and fault tolerance. The CopyOnWriteArraySet ensures thread-safe operations when managing active clients.
+
 ## Design Overview
 
 - How does the client know the server's address?
