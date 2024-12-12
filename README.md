@@ -23,7 +23,7 @@ The Nebulous Chat Application is a multi-user, thread-based client-server chat s
 
 - What happens if the server is full?
     - Server:
-        - For testing, the server run only two client connection threads.
+        - For testing, the server runs only two client connection threads.
         - Connection attempt is logged to the terminal.
     - Client:
         - User receives a server full message, and is gracefully disconnected.
